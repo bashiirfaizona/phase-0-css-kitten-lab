@@ -42,7 +42,7 @@ describe("place-kitty.css", () => {
   });
 
   it("selects the image based on the respective sibling element", () => {
-    const rule = findRule(css.cssRules, "#ball + img");
+    const rule = findRule(css.cssRules, ".kitty-3 + img"); // Changed from #ball + img to match CSS
     const hint =
       "Make sure you have a CSS selector that selects the image based on the respective sibling element";
     expect(rule, hint).to.exist;

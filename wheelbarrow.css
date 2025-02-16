@@ -1,0 +1,25 @@
+
+/* Selects the image with a class of kitty-1 */
+.kitty-1 {
+  /* Add styling if needed */
+}
+
+/* Selects the image with an id of kitty-2 */
+#kitty-2 {
+  /* Add styling if needed */
+}
+
+/* Selects the image inside the element with an id of basket (descendant selector) */
+#basket img {
+  /* Add styling if needed */
+}
+
+/* Selects the image based on a sibling element */
+.kitty-3 + img {
+  /* Add styling if needed */
+}
+
+/* Selects the image that has an alt attribute value matching "Kitty 5" */
+img[alt="Kitty 5"] {
+  /* Add styling if needed */
+}
